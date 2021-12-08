@@ -1,0 +1,39 @@
+.input {
+  margin-top: 11px;
+  display: block;
+  width: 2px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid black 2px;
+  background-color: rgb(211, 211, 211);
+  margin: 10px 5px;
+}
+.border {
+  border: solid 2px black;
+  height: 800px;
+  width: 2px;
+  margin-top: -42px;
+  margin-left: 200px;
+}
+
+.usersList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.borderUser {
+  border: black solid 2px;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+
+  width: 200px;
+  text-align: left;
+}
