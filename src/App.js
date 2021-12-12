@@ -1,12 +1,10 @@
 import "./App.css";
-
-import UserList from "./Components/UserList";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>Buna</h1>
-
+      <h1>Search Users</h1>
       <Home />
     </div>
   );
