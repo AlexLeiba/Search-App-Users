@@ -30,15 +30,19 @@
 
   background-color: rgb(231, 227, 227);
 }
+
 .input {
   margin-right: 30px;
   background-color: rgb(148, 148, 148);
 }
 
-.userBox:hover {
+.userBox:hover,
+input {
   background-color: rgb(122, 196, 199);
   box-shadow: 2px 2px 4px #000000;
-  width: 140px;
+
+  transform: scaleX(1.1);
+  transition: 500ms;
 }
 
 #button {
