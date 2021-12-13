@@ -8,7 +8,7 @@ export default function UserList(props) {
 
   // state
   const [state, setState] = useState([]);
-  const [stateCount, setStateCount] = useState(0);
+  const [stateCount, setStateCount] = useState("");
 
   function handleChange(event) {
     const userResult = event.target.value;
@@ -33,7 +33,7 @@ export default function UserList(props) {
   }
 
   function handleIncreaseNumbers() {
-    const previousState = stateCount;
+    const previousState = Number(stateCount);
     const newState = previousState + 1;
 
     return setStateCount(newState);
